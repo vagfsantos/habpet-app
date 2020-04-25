@@ -1,0 +1,17 @@
+{
+  "name": "habipet",
+  "displayName": "habipet",
+  "expo": {
+    "name": "habipet",
+    "slug": "habipet",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
