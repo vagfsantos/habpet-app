@@ -15,6 +15,9 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7B0C5784998A29E517983E0C /* libPods-habipet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2502ACF51380E8237829647D /* libPods-habipet.a */; };
+		12261887B56E4FBDA806CA81 /* Baloo 2 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 378EDFF0D68445FAB92CFC08 /* Baloo 2 Bold.ttf */; };
+		7A4D1EAE03004D3589DCB8C9 /* Rubik Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD218C50F58407BADA04601 /* Rubik Bold.ttf */; };
+		307ADC521B8844F38A512829 /* Rubik Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9553D7E3A6224076B8E78CE1 /* Rubik Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		E40B1F720DE0D29BF6B90074 /* Pods-habipet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-habipet.release.xcconfig"; path = "Target Support Files/Pods-habipet/Pods-habipet.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		378EDFF0D68445FAB92CFC08 /* Baloo 2 Bold.ttf */ = {isa = PBXFileReference; name = "Baloo 2 Bold.ttf"; path = "../src/assets/fonts/Baloo 2 Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7FD218C50F58407BADA04601 /* Rubik Bold.ttf */ = {isa = PBXFileReference; name = "Rubik Bold.ttf"; path = "../src/assets/fonts/Rubik Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9553D7E3A6224076B8E78CE1 /* Rubik Regular.ttf */ = {isa = PBXFileReference; name = "Rubik Regular.ttf"; path = "../src/assets/fonts/Rubik Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				6C68EC841F3FBF9CD21359E0 /* Pods */,
+				29A79574155B4ECBB7781C3A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -114,6 +121,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		29A79574155B4ECBB7781C3A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				378EDFF0D68445FAB92CFC08 /* Baloo 2 Bold.ttf */,
+				7FD218C50F58407BADA04601 /* Rubik Bold.ttf */,
+				9553D7E3A6224076B8E78CE1 /* Rubik Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -144,7 +162,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "habipet" */;
@@ -176,6 +194,9 @@
 				0731D3BE24204D9B009CAE85 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				12261887B56E4FBDA806CA81 /* Baloo 2 Bold.ttf in Resources */,
+				7A4D1EAE03004D3589DCB8C9 /* Rubik Bold.ttf in Resources */,
+				307ADC521B8844F38A512829 /* Rubik Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
