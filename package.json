@@ -5,9 +5,16 @@
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint"
+    }
   },
   "dependencies": {
+    "color": "^3.1.2",
     "expo": "~37.0.3",
     "expo-updates": "~0.1.0",
     "react": "~16.9.0",
@@ -16,15 +23,36 @@
     "react-native-gesture-handler": "~1.6.0",
     "react-native-reanimated": "~1.7.0",
     "react-native-screens": "~2.2.0",
+    "react-native-svg": "^12.1.0",
     "react-native-unimodules": "~0.9.0",
-    "react-native-web": "~0.11.7"
+    "react-native-web": "~0.11.7",
+    "react-router-native": "^5.1.2",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
+    "@types/color": "^3.0.1",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.23",
+    "@types/react-router-native": "^5.1.0",
+    "@types/styled-components": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.29.0",
     "babel-preset-expo": "~8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.2.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "husky": "^4.2.5",
     "jest-expo": "~37.0.0",
+    "metro-config": "^0.59.0",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1",
+    "react-native-svg-transformer": "^0.14.3",
     "typescript": "~3.8.3"
   },
   "jest": {
