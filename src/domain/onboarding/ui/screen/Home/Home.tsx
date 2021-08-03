@@ -1,18 +1,20 @@
-import React from "react";
-import styled from "styled-components/native";
-
-const Vi = styled.View`
-  flex: 1;
-`;
-const Message = styled.Text`
-  font-size: 90px;
-  color: black;
-`;
+import React from 'react';
+import { Button } from '@design-system/components/Button';
+import { Screen } from '@design-system/components/Screen';
+import { Center } from '@design-system/components/Center';
 
 export function Home() {
+  const handleLogin = () => {
+    alert('You have successfully logged in!');
+  };
+
   return (
-    <Vi>
-      <Message>hey</Message>
-    </Vi>
+    <Screen>
+      <Center>
+        <Button width={174} onPress={handleLogin}>
+          Login with Google
+        </Button>
+      </Center>
+    </Screen>
   );
 }
