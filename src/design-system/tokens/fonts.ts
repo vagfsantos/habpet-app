@@ -1,5 +1,5 @@
 export enum FontFamilies {
-  BALOO = 'Baloo 2 ExtraBold',
+  BALOO = 'Baloo2ExtraBold',
   RUBIK = 'Rubik Regular',
   RUBIK_BOLD = 'Rubik Bold',
 }
